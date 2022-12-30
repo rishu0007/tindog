@@ -1,0 +1,181 @@
+/* body  */
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Montserrat"; 
+}
+
+
+p {
+    color: #8f8f8f;
+}
+
+/* headings */
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68; 
+    color: white;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 4%;
+}
+
+/* Sections  */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+
+}
+
+
+/* navigation bar  */
+.navbar {
+    padding: 0 0 4rem;   /* first 0 is for top, second 0 is for left and right, 4rem for bottom */
+}
+.navbar-brand {
+    /* font-family: "Ubantu"; */
+    font-size: 2rem;
+    /* font-weight: bold; */
+}
+.nav-item {
+    padding: 0 20px;
+}
+.nav-link {
+    font-family: 'Montserrat-Thin';
+    font-size: 1.3rem;
+}
+
+/* download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image {
+    width: 52%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 40%;
+}
+
+/* second-section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+/* testimonial section  */
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section  */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* cta section  */
+
+#cta {
+    padding: 7% 15%;
+}
+
+/* footer section  */
+#footer {
+    padding: 7% 15%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1000px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+}
